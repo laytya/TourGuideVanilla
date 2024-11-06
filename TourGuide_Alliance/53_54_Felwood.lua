@@ -1,60 +1,70 @@
+TourGuide:RegisterGuide("Felwood (53-54)", "Winterspring (54-55)", "Alliance",function()
 
-TourGuide:RegisterGuide("Felwood (53-54)", "Winterspring (54-55)", "Alliance", function()
 return [[
-H Darnassus |QID|3781|
-T Un'Goro Soil |N|Behind the druids' treehouse.| |QID|3764|
-A Morrowgrain Research (Part 1) |N|Upstairs!| |QID|3781|
-T Morrowgrain Research (Part 1) |N|Downstairs!| |QID|3781|
-A Morrowgrain Research (Part 2) |QID|3785| |NODEBUG|
-N Morrowgrain... |N|Use the Evergreen Pouch whenever it's cooldown is up until you get all your Morrowgrain.| |QID|3785|
-A Moontouched Wildkin |N|Down in Rut'theran Village| |QID|978|
 
-R Felwood |N|Fly to Astranaar then head east out of town. At the fork near the retreat head north out of the zone (55.75, 29.50)| |Z|Ashenvale| |QID|4101|
-A Cleansing Felwood |N|On the north side of the road (54,86)| |QID|4101|
+R Morlos'Aran |QID|4101| |N|Travel to Morlos'Aran in Felwood (54.15, 86.84)| |Z|Felwood|
+A Cleansing Felwood |QID|4101| |N|Arathandris Silversky in Morlos'Aran (54.15, 86.84)| |Z|Felwood|
 
-R Emerald Sanctuary |N|Just ahead, north of the road (51,81)| |QID|5155|
-A Forces of Jaedenar |QID|5155|
-A The Corruption of the Jadefire |QID|4421|
-A Verifying the Corruption |QID|5156|
+R Emerald Sanctuary |QID|6131| |N|Travel to Emerald Sanctuary (50.98, 81.76)| |Z|Felwood|
+A Forces of Jaedenar |QID|5155| |N|Greta Mosshoof in Emerald Sanctuary (51.2, 82.1)| |Z|Felwood|
+A Verifying the Corruption |QID|5156| |N|Taronn Redfeather in Emerald Sanctuary (50.94, 81.65)| |Z|Felwood|
+A To Winterspring! |QID|5249| |N|Ivy Leafrunner in Emerald Sanctuary (51.01, 81.94)| |Z|Felwood|
+A The Corruption of the Jadefire |QID|4421| |N|Eridan Bluewind in Emerald Sanctuary (51.35, 81.53)| |Z|Felwood|
+A Timbermaw Ally |QID|8460| |N|Grazle in Emerald Sanctuary (50.94, 85.00)| |Z|Felwood|
+C Timbermaw Ally |QID|8460| |N|Kill the required Deadwood furbolg mobs in Deadwood Village (48.69, 92.08)| |Z|Felwood|
+T Timbermaw Ally |QID|8460| |N|Grazle in Emerald Sanctuary (50.93, 85.03)| |Z|Felwood|
+A Speak to Nafien |QID|8462| |N|Grazle in Emerald Sanctuary (50.93, 85.03)| |Z|Felwood|
 
-A Timbermaw Ally |N|Down by the road (51,85)| |QID|8460|
-C Timbermaw Ally |N|Just to the southwest| |QID|8460|
-T Timbermaw Ally |QID|8460|
-A Speak to Nafien |QID|8462|
+R Ruins of Constellas |QID|4512| |N|Travel to Ruins of Constellas (40.14, 67.91)| |Z|Felwood|
+N Empty Cursed Ooze Jar |QID|4512| |N|Collect 6 Empty Cursed Ooze Jar from Package of Empty Ooze Containers in your bag| |U|11912| |L|11914|
+N Empty Tainted Ooze Jar |QID|4512| |N|Collect 6 Empty Tainted Ooze Jar from Package of Empty Ooze Containers in your bag| |U|11912| |L|11948|
+K Cursed Ooze |QID|4512.1| |N|Kill Cursed Ooze and use Empty Cursed Ooze Jar to collect 6 Filled Cursed Ooze Jar in Ruins of Constellas (40.14, 67.91)| |Z|Felwood|  |U|11914|
+K Xavathras |QID|4421.4| |N|Kill Xavathras Xavathras in Ruins of Constellas (36.62, 68.46) (33.6, 66.6)| |Z|Felwood|
+C The Corruption of the Jadefire |QID|4421| |N|Kill the required Jadefire Satry in Ruins of Constellas (37.16, 66.88) (37.79, 69.24) (36.62, 68.46)| |Z|Felwood|
 
-U Open your ooze containers |U|11912| |QID|4512|
-K Cursed Oozes |N|Follow the road north to the Ruins of Constellas (40,69). Use the vials after you kill and loot.| |U|11914| |QID|4512| |QO|Filled Cursed Ooze Jar: 6/6|
-C The Corruption of the Jadefire |N|To the west, Xavathras can be found at the far west end of the ruins (32,67)| |QID|4421|
-C A Little Slime Goes a Long Way (Part 1) |N|At the next set of ponds north along the road (40,59)| |U|11948| |QID|4512|
-C Forces of Jaedenar |N|To the west, outside the caves (37,59)| |QID|5155|
+R Jaedenar |QID|4512| |N|Travel to Jaedenar (42.22, 64.74) (39.94, 55.20)| |Z|Felwood|
+K Tainted Ooze |QID|4512.2| |N|Kill Tainted Ooze and use Empty Tainted Ooze Jar to collect 6 Filled Tainted Ooze Jar in Jaedenar (39.94, 55.20)| |Z|Felwood|  |U|11948|
+C Forces of Jaedenar |QID|5155| |N|Kill the required Jaedenar Satrys in Jaedenar (38.87, 58.76) (37.66, 61.12) (35.40, 60.27)| |Z|Felwood|
 
-T Forces of Jaedenar |N|Back at Emerald Sanctuary| |QID|5155|
-A Collection of the Corrupt Water |QID|5157|
-T The Corruption of the Jadefire |QID|4421|
-A Further Corruption |QID|4906|
+R Emerald Sanctuary |QID|4906| |N|Travel to Emerald Sanctuary (41.36, 58.32) (51.35, 81.52)| |Z|Felwood|
+T The Corruption of the Jadefire |QID|4421| |N|Eridan Bluewind in Emerald Sanctuary (51.35, 81.52)| |Z|Felwood|
+A Further Corruption |QID|4906| |N|Eridan Bluewind in Emerald Sanctuary (51.35, 81.52)| |Z|Felwood|
+T Forces of Jaedenar |QID|5155| |N|Greta Mosshoof in Emerald Sanctuary (51.19, 82.06)| |Z|Felwood|
+A Collection of the Corrupt Water |QID|5157| |N|Greta Mosshoof in Emerald Sanctuary (51.19, 82.06)| |Z|Felwood|
 
-C Collection of the Corrupt Water |N|Fill the vial at the corrupted moonwell in Jaedenar (35.25, 59.75)| |U|12922| |QID|5157|
-C Verifying the Corruption |N|North at Shatter Scar Vale (40.52, 41.78). Watch out for the elite infernals!| |QID|5156|
-K Kill Xavaric |L|11668| |N|North in Jadefire Run (39,22)| |QID|939|
-A Flute of Xavaric |N|From the item he dropped, naturally| |U|11668| |QID|939|
-C Further Corruption |QID|4906|
-C Flute of Xavaric |QID|939|
-C Cleansing Felwood |N|Kill elementals at Irontree Cavern (55,17)| |QID|4101|
+R Jaedenar |QID|5157| |N|Travel to Jaedenar (43.81, 75.42) (41.30, 59.84)| |Z|Felwood|
+C Collection of the Corrupt Water |QID|5157| |N|Use Empty Canteen near the Corrupt Moonwell in Jaedenar (41.30, 59.84) (35.16, 59.74)| |Z|Felwood|
 
-R Talonbranch Glade |N|At the northeast edge of the zone, south of the road (62,24)| |QID|5156|
-F Emerald Sanctuary |QID|5156|
-T Collection of the Corrupt Water |QID|5157|
-T Further Corruption |QID|4906|
-T Flute of Xavaric |QID|939|
-T Verifying the Corruption |QID|5156|
-T Cleansing Felwood |N|South along the road| |QID|4101|
-A To Winterspring! |QID|5249| |N|You can't get this quest if you already have "Starfall".|
+R Emerald Sanctuary |QID|5158| |N|Travel to Emerald Sanctuary (51.21, 82.11)| |Z|Felwood|
+T Collection of the Corrupt Water |QID|5157| |N|Greta Mosshoof in Emerald Sanctuary (51.21, 82.11)| |Z|Felwood|
+A Seeking Spiritual Aid |QID|5158| |N|Greta Mosshoof in Emerald Sanctuary (51.21, 82.11)| |Z|Felwood|
 
-F Talonbranch Glade |QID|8465|
-T Speak to Nafien |N|North, at the end of the road (64.8,8.2)| |QID|8462|
-A Deadwood of the North |QID|8461|
-C Deadwood of the North |QID|8461|
-T Deadwood of the North |QID|8461|
-A Speak to Salfa |QID|8465|
+R Shatter Scar Vale |QID|5156| |N|Travel to Shatter Scar Vale (43.32, 74.51) (40.55, 42.80)| |Z|Felwood|
+C Verifying the Corruption |QID|5156| |N|Kill 2 Entropic Beast and 2 Entropic Horror in Shatter Scar Vale (40.55, 42.80)|  |Z|Felwood|
+
+R Jadefire Run |QID|4906| |N|Travel to Jadefire Run (43.21, 21.85)| |Z|Felwood|
+K Xavaric |QID|4906.4| |N|Kill Xavaric in Jadefire Run (42.68, 18.34) (43.05, 15.26) (39.15, 21.70)| |Z|Felwood|
+N Flute of Xavaric |QID|939| |N|Collect Flute of Xavaric from Xavaric (39.15, 21.70)| |Z|Felwood| |L|11668|
+A Flute of Xavaric |QID|939| |N|Use Flute of Xavaric to accept quest| |Z|Felwood| |U|11668|
+N Jadefire Felbind |QID|939.1| |N|Kill Jadefire Satry and collect 5 in Jadefire Run (42.13, 18.70)| |Z|Felwood|
+C Further Corruption |QID|4906| |N|Kill the required Jadefire Satry in Jadefire Run (42.68, 18.34) (43.05, 15.26) (41.65, 19.77)| |Z|Felwood|
+
+R Irontree Woods |QID|4101| |N|Travel to Irontree Woods (51.12, 15.21) (55.19, 17.72)| |Z|Felwood|
+C Cleansing Felwood |QID|4101| |N|Kill Warpwood Moss Flayer, Warpwood Shredder and collect 15 Blood Amber in Irontree Woods, (low drop rate) (51.12, 15.21) (55.19, 17.72)| |Z|Felwood|
+
+R Talonbranch Glade |QID|8461| |N|Travel to Talonbranch Glade (60.71, 16.65) (62.48, 24.24)| |Z|Felwood|
+f Talonbranch Glade |QID|8461| |N|Speak to Mishellena grab flight path for Talonbranch Glade  (62.48, 24.24)| |Z|Felwood|
+T Speak to Nafien |QID|8462| |N|Nafien in Timbermaw Hold (64.77, 8.11)| |Z|Felwood|
+A Deadwood of the North |QID|8461| |N|Nafien in Timbermaw Hold (64.77, 8.11)| |Z|Felwood|
+C Deadwood of the North |QID|8461| |N|Kill the required Deadwood Timbermaw in Felpaw Village (62.89, 11.29) (62.69, 7.86) (61.37, 7.42)| |Z|Felwood|
+N (fac:576) |QID|8465| |N|Keep grinding until you're 150 XP to Unfriendly status with (fac:576) (62.89, 11.29) (62.69, 7.86) (61.37, 7.42)| |Z|Felwood|  |FS|576, -3150|
+T Deadwood of the North |QID|8461| |N|Nafien in Timbermaw Hold (64.40, 14.79) (64.77, 8.17)| |Z|Felwood|
+A Speak to Salfa |QID|8465| |N|Nafien in Timbermaw Hold (64.77, 8.17)| |Z|Felwood|
+
+R Moonglade |TID|5249| |N|Travel to Moonglade (35.76, 72.41)| |Z|Moonglade|
+f Moonglade |TID|5249| |N|Speak to Sindrayl and grab flight path for Moonglade (48.09, 67.40)| |Z|Moonglade|
+
+N Guide Complete |N|Tick to continue to the next guide|
+
 ]]
 end)
